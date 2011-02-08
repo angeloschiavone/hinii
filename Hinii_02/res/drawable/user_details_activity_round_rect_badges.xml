@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <!-- Copyright (c) Mark Wyszomierski, 2010. -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <padding android:left="5dip" android:top="1dip" android:right="5dip" android:bottom="1dip" />
+  <corners android:radius="3dip" />
+  
+   <gradient
+                android:startColor="@color/green_start"
+                android:centerColor="@color/green_end"
+                android:endColor="@color/green_start"
+                android:angle="90" />
+   
+  <!-- <solid android:color="@color/green_hinii" />  <solid  android:background="@drawable/gradient_green" /> -->
+</shape>  

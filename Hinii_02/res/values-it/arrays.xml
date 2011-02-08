@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- Copyright 2009 Joe LaPenna -->
+<resources>
+
+	<string-array name="hinii_search_company_item">
+		<item>Solo</item>
+		<item>Coppia</item>
+		<item>Amici</item>
+		<item>Famiglia</item>
+		<item>Colleghi</item>
+	</string-array>
+
+	<string-array name="hinii_search_daykind_item">
+		<item>Divertente</item>
+		<item>Romantico</item>
+		<item>Culturale</item>
+		<item>Sportivo</item>
+		<item>Turistico</item>
+		<item>Normale</item>
+		<item>Golf</item>
+	</string-array>
+		
+	<string-array name="hinii_search_daypart_item">
+		<item>Mattina</item>
+		<item>Pomeriggio</item>
+		<item>Notte</item>
+		<item>Tutto il giorno</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingBottom="7dip" android:paddingRight="10dip"
+	android:orientation="horizontal" style="@style/hiniiPOintValueTabStyle">
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<!-- Checkin message, server generated. -->
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:paddingLeft="5dip" android:paddingRight="5dip"
+			android:paddingTop="10dip" android:paddingBottom="10dip">
+			<!-- in grassetto -->
+			<TextView android:id="@+id/lineName" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineMessage"
+				android:maxLines="1" android:ellipsize="end" />
+
+			<TextView android:id="@+id/line0" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+			<TextView android:id="@+id/line1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+			<TextView android:id="@+id/line2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+
+			<TextView android:id="@+id/line3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+			<TextView android:id="@+id/line4" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+
+			<TextView android:id="@+id/line5" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+			<TextView android:id="@+id/line6" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+
+			<TextView android:id="@+id/line7" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+
+			<TextView android:id="@+id/line8" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+			<TextView android:id="@+id/line9" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+			<TextView android:id="@+id/line10" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+			<TextView android:id="@+id/line11" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+			<TextView android:id="@+id/line12" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="@style/TextViewStyleCheckinListItemLineAddress"
+				android:paddingRight="3dip" />
+
+			<!-- grigio chiaro Intent-->
+			<TextView android:id="@+id/lineLightGray"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:maxLines="1" android:scrollHorizontally="true"
+				android:ellipsize="end" android:textAppearance="@style/TextViewStyleCheckinListItemLineTimestamp" />
+
+			<TextView android:id="@+id/lineMoreOnHinii"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/more_info_on_hinii" android:clickable="true"
+				android:background="@drawable/microphone_selector"
+				android:textAppearance="@style/TextViewStyleLinkFucsia"
+				android:paddingRight="3dip" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
