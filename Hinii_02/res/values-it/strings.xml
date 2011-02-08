@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+	<string name="loading">Caricamento...</string>
+	<string name="refresh_label">Ricarica</string>
+	<string name="search_already_in_progress_toast">Ricerca già in corso.</string>
+ 
+
+ 
+
+	<string name="test_dumpcatcher_product_key"></string>
+	<string name="dumpcatcher_product_key"></string>
+	<string name="test_dumpcatcher_secret"></string>
+	<string name="dumpcatcher_secret"></string>
+	<string name="test_dumpcatcher_url"></string>
+	<string name="dumpcatcher_url"></string>
+	<string name="pointvalue_title_sort_morning">Mattina</string>
+	<string name="pointvalue_title_sort_afternoon">Pomeriggio</string>
+	<string name="pointvalue_title_sort_night">Notte</string>
+	<string name="pointvalue_title_sort_allday">Tutto il giorno</string>
+	<string name="pointvalue_map_tab">Mappa</string>
+	<string name="pointvalue_details_tab">Dettagli</string>
+	<string name="hinii_search_company_spinner">Con chi sei?</string>
+	<string name="hinii_search_daykind_spinner">Che tipo di giornata vorresti passare?</string>
+	<string name="hinii_search_daypart_spinner">Quale parte della giornata?</string>
+
+	<string name="hinii_search_city">Qui Vicino</string>
+	<string name="hinii_search_where">Dove?</string>
+
+	<string name="hinii_search_city_elsewhere">Cerca altrove</string>
+	<string name="hinii_search_where_nearby">Qui vicino</string>
+	<string name="hinii_search">Cerca</string>
+	<string name="hinii_no_places">Nessun risultato!</string>
+	<string name="hinii_user_random_point_activity_title_cost_average">Costo</string>
+	<string name="hinii_ok">ok</string>
+	<string name="hinii_search_city_elsewhere_hint">Dove vuoi che HiNii cerchi?inserisci la città
+		usando tastiera o voce</string>
+
+	<string name="hinii_enter_place_using_keyboard">Dove vuoi che Hinii cerchi?</string>
+	<string name="hinii_enter_place_using_keyboard_or_voice">
+		Dove vuoi che Hinii cerchi? scrivilo qui
+		utilizzando la tastiera o il
+		riconoscimento vocale cliccando sul
+		microfono qui sotto</string>
+	<string name="hinii_voice_recognition_prompt">Dove vuoi che Hinii cerchi?</string>
+
+	<string name="hinii_type_a_place_or_speak">Inserire luogo di ricerca</string>
+	<string name="random_point_details_activity_title_vote_avg">Voto</string>
+	<string name="hinii_search_results_tab_list">Posti</string>
+	<string name="hinii_search_results_tab_map">Percorso</string>
+
+	<string name="hinii_typology">Tipologia</string>
+	<string name="hinii_description">Descrizione</string>
+	<string name="hinii_speciality">Specialità</string>
+	<string name="hinii_website">Sito web</string>
+	<string name="hinii_telephone">Telefono</string>
+	<string name="hinii_vote_average">Media Voti</string>
+	<string name="hinii_vote_numbers">Votanti</string>
+	<string name="hinii_voters">votanti</string>
+	<string name="hinii_current_category_value">Categoria</string>
+	<string name="hinii_closed">Chiusura</string>
+	<string name="hinii_cost">Costo</string>
+	<string name="hinii_cost_average">Costo Medio</string>
+	<string name="hinii_preferences_contact">Contatta</string>
+
+	<string name="hinii_preferences_contact_hinii">Contatta Hinii</string>
+	<string name="hinii_preferences_contact_hinii_summary">Manda una mail a Hinii</string>
+	<string name="hinii_preferences_contact_author">Android App</string>
+	<string name="hinii_preferences_contact_author_summary">Manda una mail allo sviluppatore dell\'App</string>
+
+	<string name="hinii_preferences_information">Informazioni</string>
+	<string name="hinii_preferences_information_about">About</string>
+	<string name="hinii_preferences_information_about_summary">Informazioni su Hinii</string>
+
+	<string name="network_unavailable">Connessione internet non disponibile</string>
+	<string name="hinii_server_not_responding">Il server Hinii non risponde</string>
+	<string name="hinii_server_request_timed_out">Server Hinii tarda a rispondere</string>
+	<string name="visit_hinii">HiNii.com</string>
+	<string name="visit_hinii_summary">Scopri HiNii su www.hinii.com</string>
+	<string name="changelog_html_file">changelog-it.html</string>
+	<string name="more_info_on_hinii">scopri di più su HiNii.com</string>
+	<string name="menu_view_path_on_hinii_dot_com">Guarda su HiNii.com</string>
+
+	<string name="localization_failed">Impossibile rilevare la tua posizione, potresti
+		dover\nabilitare la localizzazione tramite GPS e/o wi-fi o, nel caso
+		sia già abilitata, attendere un minuto</string>
+	<string name="localization_go_enable">Abilita localizzazione</string>
+	<string name="localization_do_not_enable">Attendi</string>
+</resources>  

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Copyright 2010 Mark Wyszomierski -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingLeft="8dip"
+	android:paddingRight="8dip" android:paddingTop="8dip"
+	android:paddingBottom="8dip" android:background="@drawable/hinii_background_land">
+
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingTop="60dip">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical"
+			android:paddingRight="42dip" android:paddingLeft="8dip">
+
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/hinii_search_company_spinner"></TextView>
+			<Spinner android:id="@+id/SpinnerSearchCompany"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:prompt="@string/hinii_search_company_spinner">
+			</Spinner>
+			
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/hinii_search_daykind_spinner"></TextView>
+			<Spinner android:id="@+id/SpinnerSearchDaykind"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:prompt="@string/hinii_search_daykind_spinner">
+			</Spinner>
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/hinii_search_daypart_spinner"></TextView>
+			<Spinner android:id="@+id/SpinnerSearchDaypart"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:prompt="@string/hinii_search_daypart_spinner"
+				>
+				<requestFocus />
+
+			</Spinner>
+
+			<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				>
+
+				<TextView android:id="@+id/textViewSearchCity"
+					android:layout_width="wrap_content" android:layout_height="fill_parent"
+					android:text="@string/hinii_search_where"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/textViewWhereToSearch"
+					android:layout_width="wrap_content" android:layout_height="fill_parent"
+					android:text="@string/hinii_search_city" android:layout_toRightOf="@id/textViewSearchCity"
+					android:layout_centerVertical="true" />
+				<!--
+					<AutoCompleteTextView android:completionThreshold="1"
+					android:id="@+id/AutoCompleteTextView01"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:textColor="@android:color/primary_text_light"
+					android:text="@string/hinii_search_where_nearby"></AutoCompleteTextView>
+				-->
+
+
+
+				<LinearLayout android:id="@+id/hiniiSearchElsewhere"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:orientation="horizontal" android:layout_gravity="right"
+					android:layout_alignParentRight="true" android:clickable="true"
+					android:background="@drawable/microphone_selector"
+					android:layout_centerVertical="true"
+					android:layout_marginTop="10dip">
+
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="fill_parent" android:text="@string/hinii_search_city_elsewhere"
+						android:gravity="center_vertical" />
+
+					<ImageView android:layout_width="24dip"
+						android:layout_height="24dip" android:src="@drawable/ic_menu_search"
+						android:scaleType="fitXY" />
+				</LinearLayout>
+			</RelativeLayout>
+
+			<Button android:id="@+id/btnHiniiSearch" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="10dip"
+				android:text="@string/hinii_search" />
+
+
+
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

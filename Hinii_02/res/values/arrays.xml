@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- Copyright 2009 Joe LaPenna -->
+<resources>
+	<string-array name="tipLists">
+		<item>Tip</item>
+		<item>Todo</item>
+	</string-array>
+
+	<string-array name="startup_tabs">
+		<item>Friends</item>
+		<item>Places</item>
+	</string-array>
+
+	<!-- Don't change these for localization. -->
+	<string-array name="startup_tabs_values">
+		<item>Friends</item>
+		<item>Places</item>
+	</string-array>
+
+	<string-array name="pings_refresh_interval_in_minutes">
+		<item>10 minutes</item>
+		<item>15 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>2 hours</item>
+	</string-array>
+
+	<!-- Don't change these for localization. -->
+	<string-array name="pings_refresh_interval_in_minutes_values">
+		<item>10</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+	</string-array>
+
+	<string-array name="hinii_search_company_item">
+		<item>Alone</item>
+		<item>Couple</item>
+		<item>Friends</item>
+		<item>Family</item>
+		<item>Colleagues</item>
+	</string-array>
+
+	<string-array name="hinii_search_company_item_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+
+	<string-array name="hinii_search_daykind_item_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>50</item>
+	</string-array>
+
+	<string-array name="hinii_search_daykind_item">
+		<item>Fun</item>
+		<item>Romance</item>
+		<item>Culture</item>
+		<item>Sportive</item>
+		<item>Tourism</item>
+		<item>Normal</item>
+		<item>Golf</item>
+	</string-array>
+	
+	<string-array name="hinii_search_daypart_item_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>20</item>
+	</string-array>
+	
+	<string-array name="hinii_search_daypart_item">
+		<item>Morning</item>
+		<item>Afternoon</item>
+		<item>Night</item>
+		<item>All Day</item>
+	</string-array>
+
+</resources>

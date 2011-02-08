@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/hinii_preferences_contact">
+		<com.angelo.hiniid.preferences.ClickPreference
+			android:key="contact_hinii" android:title="@string/hinii_preferences_contact_hinii"
+			android:summary="@string/hinii_preferences_contact_hinii_summary" />
+		<com.angelo.hiniid.preferences.ClickPreference
+			android:key="contact_author" android:title="@string/hinii_preferences_contact_author"
+			android:summary="@string/hinii_preferences_contact_author_summary" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/hinii_preferences_information">
+		<com.angelo.hiniid.preferences.ClickPreference
+			android:key="changelog" android:title="@string/hinii_preferences_information_about"
+			android:summary="@string/hinii_preferences_information_about_summary" />
+		<com.angelo.hiniid.preferences.ClickPreference
+			android:key="visit_hinii" android:title="@string/visit_hinii"
+			android:summary="@string/visit_hinii_summary" />
+	</PreferenceCategory>
+</PreferenceScreen>
